@@ -29,7 +29,7 @@ class HomePageScreen extends StatelessWidget {
           Navigator.pushNamed(context, GoogleSignInScreen.id);
         }),
 
-        button('Facebook (In Progress)', () {
+        button('Facebook', () {
           Navigator.pushNamed(context, FacebookSignInScreen.id);
         }),
 
